@@ -81,10 +81,9 @@
 # Comandos de seccionizado
 1. `\fosection` se debe utilizar dentro del archivo `FORMULARIO-*`.
 # Herramietas básicos de formateado.
-## Notas en el margen
-1. El comando `\marginote{}` añade notas (texto) en el margen
-2. El comando '\notext{}' añade notas (texto) en el margen
-3. El comando '\notepr{}' añade notas (texto) en sección de problemas resueltos y propuestos
+## Notas en el margen y problemas resueltos o propuestos
+1. El comando `\note{<text>}` añade notas (texto) en el margen cuando este comando se invoca en el parte téorica o en el archivo `TEORIA-*`
+2. El comando '\note{}' añade notas en problemas resueltos o propuestos.
 ## Listas
 1. Lista de axiomas:
 ```tex
